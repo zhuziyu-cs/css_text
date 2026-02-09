@@ -1,0 +1,126 @@
+
+/*p{*/
+/*    color: yellow;font-weight:300;*/
+/*}*/
+/*!*法三改字色*!*/
+
+
+
+/*用class类选择器改颜色*/
+/*.aa{*/
+/*    color:red;*/
+/*    font-weight:bold;*/
+/*}*/
+/*.as{*/
+/*    color:green;*/
+/*}*/
+
+/*.cc{*/
+/*    color:blue;*/
+/*}*/
+
+/*用id*/
+/*#qq1{*/
+/*    color:red;*/
+/*}*/
+
+/*通配符*/
+/**{*/
+/*    color:black;*/
+/*}*/
+
+
+/*交集选择器*/
+/*p.as{*/
+/*    color:sienna;*/
+/*}*/
+/*p#qq{*/
+/*    color:springgreen;*/
+/*}*/
+
+/*并集选择器*/
+/*a,div{*/
+/*    color:#00f;*/
+/*}*/
+/*a,p.aa{*/
+/*    color:grey;*/
+/*}*/
+
+/*高级选择器*/
+
+/*后代选择器*/
+/*.aq div div{*/
+/*    color: mediumvioletred;*/
+/*}*/
+
+/*div div div{*/
+/*    color: red;*/
+/*}*/
+
+
+/*!*子代选择器*!*/
+/*.aq>p{*/
+/*    color: blueviolet;*/
+/*}*/
+/*div div>p{*/
+/*    color: red;*/
+/*}*/
+
+/*!*相邻兄弟选择器*!*/
+/*#q1 div+p{*/
+/*    color:red;*/
+/*}*/
+
+
+/*!*通用兄弟选择器*!*/
+/*.qq p~ .a{*/
+/*    color: orange;*/
+/*}*/
+/*.qq div~p{*/
+/*    color: red;*/
+/*}*/
+
+/*!*属性选择器*!*/
+/*[class]{*/
+/*    color:orange;*/
+/*}*/
+/*a[class]{*/
+/*    color:blue;*/
+/*}*/
+/*[href$="com"]{*/
+/*    color:rebeccapurple;*/
+/*}*/
+/*[class^="1"]{color:red;}*/
+
+/*!*u先级*!*/
+/*a{*/
+/*    color:blue;*/
+/*}*/
+/*p{*/
+/*    color:skyblue!important;*/
+/*}*/
+/*[class]{*/
+/*    color:brown ;*/
+/*}*/
+/*[style="color:red;"] {*/
+/*    color:darkmagenta;*/
+/*}*/
+/*div p+p{*/
+/*    color:darkslateblue;*/
+/*}*/
+/*#qq2{*/
+/*    color:mediumspringgreen;*/
+/*}*/
+
+
+/*!*继承*!*/
+/*div div{*/
+/*    color:red;*/
+/*}*/
+/*div div p{*/
+/*    color:initial;*/
+/*}*/
+/*div div div{*/
+/*    color:unset;*/
+/*}*/
+
