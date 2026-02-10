@@ -1,126 +1,285 @@
 
-/*p{*/
-/*    color: yellow;font-weight:300;*/
+
+
+/*滚动条*/
+/*.qq{*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    overflow: scroll;*/
 /*}*/
-/*!*法三改字色*!*/
+/*.qq{*/
+/*     overflow: scroll;*/
+/* }*/
+/*.qq{*/
+/*    overflow: hidden;*/
+/*}*/
+/*!*!*阻止整个页面滚动*!*!*/
+/*html{*/
+/*    overflow: hidden;*/
+/*}*/
+
+
+/*!*内边距*!*/
+/*.q111{*/
+/*    background:pink ;*/
+/*    width: 200px;*/
+/*    height: 300px;*/
+/*    padding:20px 30px;*/
+/*    box-sizing: border-box;*/
+/*    !*padding-top:40px;*!*/
+/*}*/
+
+/*!*!*外边距*!*!*/
+/*.qq{*/
+/*    width: 450px;*/
+/*    height: 500px;*/
+/*    margin: 0 auto;*/
+/*    background: darkslategrey;*/
+/*  padding-top:1px;*/
+
+/*    !*border-top:2px;*!*/
+/*}*/
+
+/*.q1{*/
+/*    width: 200px;*/
+/*    height: 250px;*/
+/*    background: yellowgreen;*/
+/*    margin-top: 250px;*/
+/*}*/
+
+/*.q2{*/
+/*    width: 200px;*/
+/*    height: 250px;*/
+/*    background: lightgoldenrodyellow;*/
+
+/*}*/
+
+/*.qq{*/
+/*    width:200px;*/
+/*    height:200px;*/
+/*    background: skyblue;*/
+/*   padding:20px;*/
+/*}*/
+/*.q1{*/
+/*    width:200px;*/
+/*    height:200px;*/
+/*    background: plum;*/
+/*    margin: 10px;*/
+/*}*/
 
 
 
-/*用class类选择器改颜色*/
-/*.aa{*/
-/*    color:red;*/
+/*!*边框*!*/
+/*.q111{*/
+/*width: 200px;*/
+/*    height: 200px;*/
+/*    background: red;*/
+/*border-width: 2px;*/
+/*    border-style: ridge;*/
+/*    border-color: skyblue;*/
+/*}*/
+
+/*.q111{*/
+/*    border: 2px solid purple;*/
+/*    border-top:darkslategrey;*/
+/*    !*border-radius: 50px  30px 20px 10px;*!*/
+/*    !*border-top-left-radius: 50px ;*!*/
+/*    !*border-radius: 20%;*!*/
+/*}*/
+
+/*!*背景样式*!*/
+/*.q1{*/
+/*    background-color:transparent;*/
+/*}*/
+/*.q1{*/
+/*    width: 500px;*/
+/*    height: 500px;*/
+/*    background-color:darkred;*/
+/*    background-image:url("https://ts2.tc.mm.bing.net/th/id/OIP-C.rkIlus17hE2ii7EWLA9ulgHaEK?rs=1&pid=ImgDetMain&o=7&rm=3") ;*/
+/*background-size: contain;*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center center;*/
+/*}*/
+/*.q111{*/
+/*    background-size: 100% 100%;*/
+/*    background-color:lightgreen;*/
+/*background-image: url("https://ts2.tc.mm.bing.net/th/id/OIP-C.rkIlus17hE2ii7EWLA9ulgHaEK?rs=1&pid=ImgDetMain&o=7&rm=3");*/
+/*}*/
+/*.q1{*/
+/*    background:red center center no-repeat ;*/
+/*}*/
+
+/*html{*/
+/*    width: 100px;*/
+/*}*/
+/*body{*/
+/*    width: 300px;*/
+/*}*/
+/*.q3{*/
+/*    width: 300px;*/
+/*    height: 500px;*/
+/*    background: #000;*/
+/*}*/
+/*!*半分比相较于父元素来说*!*/
+/*.q2{*/
+/*    width: 200%;*/
+/*    height: 25%;*/
+/*    background: #00cc00;*/
+
+/*}*/
+
+/*内容区域*/
+
+/*.q111 {*/
+/*width:200px;*/
+/*height:200px;*/
+/*}*/
+/*.q111{*/
+/*    width:fit-content;*/
+/*    height:min-content;*/
+/*}*/
+/*.q111{*/
+/*    width:max-content;*/
+/*    height:fit-content;*/
+/*}*/
+
+/*!*文本空白*!*/
+/*p{*/
+/*    white-space: pre;*/
+/*}*/
+
+/*p{*/
+/*    white-space: pre-wrap;*/
+/*}*/
+/*p{*/
+/*    white-space: pre-line;*/
+/*}*/
+/*p{*/
+/*    white-space: normal;*/
+/*}*/
+
+
+/*!*文本换行*!*/
+/*p{*/
+/*    word-break: break-all;*/
+/*}*/
+
+/*p{ color: red;*/
+/*    word-break: normal;*/
+/*    text-decoration: underline forestgreen wavy;*/
+/*}*/
+
+/*!*控制超长单词*!*/
+/*p{*/
+/*    word-break: normal;*/
+/*    overflow-wrap: break-word;*/
+/*}*/
+
+/*p{*/
+/*    word-break: normal;*/
+/*    text-wrap: balance;*/
+/*}*/
+
+/*p{*/
+/*    word-break: normal;*/
+/*    text-wrap: pretty;*/
+/*}*/
+
+/*!*文本间距*!*/
+/*p{*/
+/*    letter-spacing: 10px;*/
+/*}*/
+/*p{*/
+/*    word-spcaing:20px;*/
+/*}*/
+/*!*行高*!*/
+/*p{*/
+/*    line-height:1.5;*/
+/*}*/
+
+/*!*首字母大写*!*/
+/*p{*/
+/*    text-transform: capitalize;*/
+/*}*/
+/*!*全小写*!*/
+/*p{*/
+/*    text-transform:lowercase;*/
+/*}*/
+/*全大写*/
+/*p{*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+
+
+/*上划线*/
+/*p{*/
+/*    text-decoration:overline red wavy 3px;*/
+/*}*/
+
+/*!*去掉a连接下划线*!*/
+/*a{*/
+/*    text-decoration:none;*/
+/*}*/
+
+/*div{*/
+/*    text-align:right;*/
+/*}*/
+/*div span{*/
+/*    text-align:right;*/
+/*}*/
+
+
+/*#q1{*/
+/*    !*text-indent: 2em;*!*/
+/*    text-align:justify;*/
+/*}*/
+
+/*!*颜色*!*/
+/*.one{*/
+/*  color:rgb(255,0,0,0.4);*/
+/*    font-style:italic;*/
+/*}*/
+
+/*斜体*/
+/*.one{*/
+/*    font-style:italic;*/
+/*}*/
+/* .one{*/
+/*     font-style:oblique;*/
+/* }*/
+
+/*.cq{*/
+/*    color: red;*/
+/*    font-family:FRSCRIPT ;*/
+/*}*/
+/*@font-face {*/
+/*    font-family: 'FRSCRIPT';src:url( "font/FRSCRIPT.TTF");*/
+/*}*/
+/*.qq{*/
+/*    font-family:initial ;*/
+/*}*/
+
+/*p{*/
+/*    font-size:small;*/
+/*}*/
+/*p{*/
+/*    font-size:medium;*/
+/*}*/
+/*h2{*/
+/*    font-family:FRSCRIPT;*/
+/*    font-size:2em;*/
+/*}*/
+/*.qqq{*/
+/*    color:blue;font-size:medium;*/
+/*}*/
+/*.qqq p{*/
+/*    font-size:5em;*/
+/*}*/
+
+/*.qq{*/
+/*    font-weight:600;*/
+/*}*/
+/*.qqq{*/
 /*    font-weight:bold;*/
 /*}*/
-/*.as{*/
-/*    color:green;*/
-/*}*/
-
-/*.cc{*/
-/*    color:blue;*/
-/*}*/
-
-/*用id*/
-/*#qq1{*/
-/*    color:red;*/
-/*}*/
-
-/*通配符*/
-/**{*/
-/*    color:black;*/
-/*}*/
-
-
-/*交集选择器*/
-/*p.as{*/
-/*    color:sienna;*/
-/*}*/
-/*p#qq{*/
-/*    color:springgreen;*/
-/*}*/
-
-/*并集选择器*/
-/*a,div{*/
-/*    color:#00f;*/
-/*}*/
-/*a,p.aa{*/
-/*    color:grey;*/
-/*}*/
-
-/*高级选择器*/
-
-/*后代选择器*/
-/*.aq div div{*/
-/*    color: mediumvioletred;*/
-/*}*/
-
-/*div div div{*/
-/*    color: red;*/
-/*}*/
-
-
-/*!*子代选择器*!*/
-/*.aq>p{*/
-/*    color: blueviolet;*/
-/*}*/
-/*div div>p{*/
-/*    color: red;*/
-/*}*/
-
-/*!*相邻兄弟选择器*!*/
-/*#q1 div+p{*/
-/*    color:red;*/
-/*}*/
-
-
-/*!*通用兄弟选择器*!*/
-/*.qq p~ .a{*/
-/*    color: orange;*/
-/*}*/
-/*.qq div~p{*/
-/*    color: red;*/
-/*}*/
-
-/*!*属性选择器*!*/
-/*[class]{*/
-/*    color:orange;*/
-/*}*/
-/*a[class]{*/
-/*    color:blue;*/
-/*}*/
-/*[href$="com"]{*/
-/*    color:rebeccapurple;*/
-/*}*/
-/*[class^="1"]{color:red;}*/
-
-/*!*u先级*!*/
-/*a{*/
-/*    color:blue;*/
-/*}*/
-/*p{*/
-/*    color:skyblue!important;*/
-/*}*/
-/*[class]{*/
-/*    color:brown ;*/
-/*}*/
-/*[style="color:red;"] {*/
-/*    color:darkmagenta;*/
-/*}*/
-/*div p+p{*/
-/*    color:darkslateblue;*/
-/*}*/
-/*#qq2{*/
-/*    color:mediumspringgreen;*/
-/*}*/
-
-
-/*!*继承*!*/
-/*div div{*/
-/*    color:red;*/
-/*}*/
-/*div div p{*/
-/*    color:initial;*/
-/*}*/
-/*div div div{*/
-/*    color:unset;*/
-/*}*/
-
